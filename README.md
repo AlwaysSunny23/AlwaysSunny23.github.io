@@ -1,22 +1,19 @@
 # Khwezi Ngema — teaching portfolio
 
-A lively, recruiter-friendly portfolio companion to Khwezi's CV. The page introduces her, highlights her qualifications and teaching preparation, and includes a short interactive vocabulary activity so schools can experience her classroom tone.
+A recruiter-friendly portfolio companion to Khwezi's CV, with her qualifications, teaching approach, and three age-appropriate sample activities.
+
+## Portfolio
+- Intro video available upon request; CV supplied separately.
+- Elementary: picture word hunt (weather vocabulary and TPR).
+- Lower secondary: mystery object (descriptive language and pair speaking).
+- Upper secondary / high school: make your case (opinions, reasons, and examples).
+- Introductory vocabulary mini lesson with supportive feedback.
 
 ## Files
+- `index.html` — page structure and copy
+- `styles.css` — responsive design
+- `app.js` — interactive lesson and activities
 
-- `index.html` — portfolio content and page structure
-- `styles.css` — responsive design and illustrated classroom
-- `app.js` — interactive vocabulary mini lesson
+## Publish
+The public site is hosted with GitHub Pages and deploys from `main` at the repository root.
 
-## Personalisation still to do
-
-- Replace the classroom illustration with Khwezi's chosen portrait or intro-video thumbnail, if she wants one.
-- Add the preferred CV as a downloadable PDF once she selects the final version.
-- Confirm role preferences, age groups, availability, and whether she wants to share a demo video.
-- Review the email address and all claims before sharing the live page.
-
-## GitHub Pages
-
-This is a static site with no build step. In the repository's **Settings → Pages**, select **Deploy from a branch**, choose `main` and `/(root)`, then save. GitHub will publish it at:
-
-`https://alwayssunny23.github.io/Teaching-Site/`
