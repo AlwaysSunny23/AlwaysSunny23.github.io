@@ -11,3 +11,5 @@ document.getElementById('reset-lesson').addEventListener('click',()=>{current=0;
 const toggle=document.querySelector('.menu-toggle'),nav=document.querySelector('.nav-links');toggle.addEventListener('click',()=>{const open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));toggle.setAttribute('aria-label',open?'Close navigation':'Open navigation')});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');toggle.setAttribute('aria-expanded','false')}));
 showQuestion();
 
+document.querySelectorAll('.activity-choice').forEach(button=>button.addEventListener('click',()=>{const card=button.closest('.activity-card'),feedback=card.querySelector('.activity-feedback');card.querySelectorAll('.activity-choice').forEach(option=>option.classList.remove('selected'));button.classList.add('selected');if(button.dataset.frame){feedback.textContent=button.dataset.frame}else{feedback.textContent=button.dataset.feedback}feedback.classList.toggle('is-success',button.dataset.correct==='true');}));
+
